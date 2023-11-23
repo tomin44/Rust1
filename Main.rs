@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    println!("Please do enter your first name right here:");
+    println!("Please do enter your first name here:");
     
     let mut name = String::new();
     io::stdin().read_line(&mut name).expect("Failed to read the line");
